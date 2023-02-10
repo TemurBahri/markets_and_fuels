@@ -12,13 +12,13 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
       splash: Lottie.asset('assets/loading-circle.json'),
-      backgroundColor: const Color.fromARGB(255, 240, 85, 85),
+      backgroundColor: const Color.fromARGB(255, 243, 125, 125),
       nextScreen: const Scaffold(),
       splashIconSize: 250,
       duration: 3000,
       splashTransition: SplashTransition.fadeTransition,
       pageTransitionType: PageTransitionType.leftToRightWithFade,
-      animationDuration: const Duration(seconds: 1),
+      animationDuration: const Duration(seconds: 2),
     );
   }
 }
