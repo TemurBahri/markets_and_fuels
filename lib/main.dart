@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:markets_and_fuels/screens/splash_screen.dart';
+import 'package:markets_and_fuels/views/splash_screen.dart';
 
 void main() => runApp(const MyApp());
 
