@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Markets and Fuels',
       home: SplashScreen(),
+
     );
   }
 }
